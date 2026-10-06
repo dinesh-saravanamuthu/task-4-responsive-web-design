@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Task 4 - Mobile-friendly responsive website using CSS media queries">
+  <title>Responsive Web Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="#">Web<span>Studio</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">RESPONSIVE WEB DEVELOPMENT</p>
+          <h1>Build once. <span>Look great</span> everywhere.</h1>
+          <p class="hero-text">
+            A clean desktop-first webpage converted into a flexible, mobile-friendly
+            layout using CSS media queries, relative units, Flexbox and Grid.
+          </p>
+          <a class="btn" href="#services">Explore Services</a>
+        </div>
+        <div class="hero-card" aria-label="Responsive design preview">
+          <div class="browser-bar"><i></i><i></i><i></i></div>
+          <div class="preview">
+            <div class="preview-title"></div>
+            <div class="preview-row">
+              <div></div><div></div><div></div>
+            </div>
+            <div class="preview-line"></div>
+            <div class="preview-line short"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Responsive by design</h2>
+          <p>Layouts automatically adapt to different screen sizes without horizontal scrolling.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">⌘</div>
+            <h3>Flexible Layouts</h3>
+            <p>Flexbox and CSS Grid keep content organized on desktops, tablets and phones.</p>
+          </article>
+          <article class="card">
+            <div class="icon">↔</div>
+            <h3>Media Queries</h3>
+            <p>At 768px and below, columns stack, spacing changes and typography becomes compact.</p>
+          </article>
+          <article class="card">
+            <div class="icon">▣</div>
+            <h3>Fluid Images</h3>
+            <p>Images use max-width: 100% so they stay inside their containers on small screens.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">THE APPROACH</p>
+          <h2>Mobile-friendly without sacrificing desktop design.</h2>
+          <p>
+            This project demonstrates responsive web design with a viewport meta tag,
+            rem and percentage units, flexible containers, and a dedicated mobile
+            breakpoint.
+          </p>
+        </div>
+        <div class="stats">
+          <div><strong>768px</strong><span>Mobile breakpoint</span></div>
+          <div><strong>100%</strong><span>Fluid media width</span></div>
+          <div><strong>0</strong><span>Horizontal overflow</span></div>
+          <div><strong>1</strong><span>Responsive stylesheet</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta">
+      <div class="container">
+        <h2>Ready for every screen?</h2>
+        <p>Resize the browser or use Chrome DevTools Device Toolbar to test the layout.</p>
+        <a class="btn btn-light" href="mailto:hello@example.com">Get Started</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© 2026 WebStudio</span>
+      <span>Task 4 • Responsive Web Design</span>
+    </div>
+  </footer>
+</body>
+</html>
